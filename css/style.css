@@ -85,6 +85,12 @@ header .hero .slogan .bold {
   font-weight: 900;
 }
 
+header .hero .slogan .line {
+  color: #ed145b;
+  font-weight: 200;
+  letter-spacing: -5px;
+}
+
 header .hero .slogan p {
   font-size: 26px;
   font-weight: 300;
@@ -104,5 +110,37 @@ header .hero .btn {
   min-height: 50px;
   min-width: 200px;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+header .hero .btn:hover {
+  opacity: 0.6;
+}
+
+.about {
+  min-height: 650px;
+  background: #f4f4f4;
+}
+
+.about .pink-triangle {
+  min-height: 40px;
+  width: 100%;
+  border-top: 40px solid #ed145b;
+  border-right: 40px solid transparent;
+}
+
+.about .flex-container .row .italic {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+  color: 5a5a5a;
+  text-align: left;
+}
+
+.about .flex-container .row .line {
+  color: #ed145b;
+  font-weight: 200;
+  letter-spacing: -5px;
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
