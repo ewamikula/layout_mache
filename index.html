@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8">
+		<title>Mache layout</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="vendor/normalize.css">
+		<link rel="stylesheet" href="vendor/flickity.min.css" media="screen">
+       <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+	<header>
+		<nav class="flex-container">
+				<img src="https://bimtooldepot.blob.core.windows.net/brands-test/Femoglas/logo150x30.png" alt="logo">
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Our Services</a></li>
+					<li><a href="#">Prices</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+		</nav>
+	</header>
+		<section class="hero">
+			<div class="slogan">
+				<h1><span class="bold">Mache</span> free psd template</h1>
+				<p>Elegant and clean PSD template, which you can download and use for free!
+You can easily modify the design to make it your own and help you get your project running faster.</p>	
+			</div>
+			<button class="btn">Show more</button>
+			<div class="pink-triangle"></div>
+		</section>
+		<section class="about">
+			<div class="flex-container">
+						<h2 class="italic">Powerfull PSD template available  for free!</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			</div>
+			<div class="more">See the video <span><i></i></span></div>
+			<div class="computer-img"></div>
+		</section>
+		<section class="our-services">
+			<div class="flex-container">
+				<h2 class="italic">Our Services</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+			</div>
+			<div class="icons">
+				<div class="icon">
+						<i class="fa fa-bicycle"></i>
+						<h4 class="head-icon">fully editable</h4>
+					</div>
+					<div class="icon">
+						<i class="fa fa-wrench"></i>
+						<h4 class="red">free download</h4>
+					</div>
+					<div class="icon">
+						<i class="fa fa-tags"></i>
+						<h4 class="gray">modern design</h4>
+					</div>
+					<div class="icon">
+						<i class="fa fa-tags"></i>
+						<h4 class="gray">100% responsive</h4>
+					</div>
+			</div>
+		</section>
+		<section class="slider">
+			<div id="slider" class="main-carousel" data-flickity='{ "hash": true}'>
+		    </div>
+
+				<script id="template-list" type="x-tmpl-mustache">
+		        {{{slides}}}
+		    	</script>
+		 
+		    	<script id="template-slide" type="x-tmpl-mustache">
+		        	<div class="carousel-cell" style="background-image: url('{{image}}')">
+		           	<h1>{{name}}</h1>
+		       		</div>
+		    	</script>
+
+		    	<script>
+			        var slidesData = [{
+			            name: 'Kingdom of Thailand',
+			            image: 'https://images.pexels.com/photos/733092/pexels-photo-733092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+			        }, {
+			            name: 'Bali',
+			            image: 'https://images.pexels.com/photos/1090551/pexels-photo-1090551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+			        }, {
+			            name: 'Horseshoe Bend',
+			            image: 'https://images.pexels.com/photos/569202/pexels-photo-569202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+			        }, {
+			            name: 'Hong Kong',
+			            image: 'https://images.pexels.com/photos/417418/pexels-photo-417418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+			        }, {
+			            name: 'Yosemite',
+			            image: 'https://images.pexels.com/photos/36363/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+			        }];
+		    	</script>
+		</section>
+		<section class="prizes">
+			<div class="flex-container">
+				<h2 class="price">Check Our Prices</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+					<div class="box">
+						<h3>$<span class="big">19</span><br>per month</h3>
+						<button class="btn-grey">standard</button>
+						<div class="list">
+							<ul>
+								<li>bla bla</li>
+								<li>bla</li>
+								<li>lalalalalal</li>
+								<li>bla</li>
+							</ul>
+						</div>
+						<button class="btn">buy now</button>
+					</div>
+			</div>
+		</section>
+		<section class="additional">
+			<div class="flex-container">
+					<div class="ads-icons">
+						<i class="fa fa-bicycle"></i>
+						<div class="icon">
+						<h4 class="head-icon">high resolution</h4>
+						<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+					</div>
+					<div class="ads-icons">
+						<i class="fa fa-bicycle"></i>
+						<div class="icon">
+						<h4 class="head-icon">high resolution</h4>
+						<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+					</div>
+					<div class="ads-icons">
+						<i class="fa fa-bicycle"></i>
+						<div class="icon">
+						<h4 class="head-icon">high resolution</h4>
+						<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+					</div>
+					<div class="ads-icons">
+						<i class="fa fa-bicycle"></i>
+						<div class="icon">
+						<h4 class="head-icon">high resolution</h4>
+						<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+					</div>
+					<div class="ads-icons">
+						<i class="fa fa-bicycle"></i>
+						<div class="icon">
+						<h4 class="head-icon">high resolution</h4>
+						<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+					</div>
+					<div class="ads-icons">
+						<i class="fa fa-bicycle"></i>
+						<div class="icon">
+						<h4 class="head-icon">high resolution</h4>
+						<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+					</div>
+			</div>
+		</section>	
+		<section class="join">
+			<div class="flex-container">
+				<h1>Became A Part Of <span class="bold">Mache</span> Community Today</h1>
+				<button class="btn-white"></button>
+			</div>
+	</section>
+	<section class="gallery">
+		<div class="flex-container">
+			<div class="gallery-item">
+				<div class="item" style="background-image:url('https://images.unsplash.com/photo-1496150590317-f8d952453f93?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=961edb326df737a36e5eafcae013b5fe&auto=format&fit=crop&w=1350&q=80')">
+					<div class="icon-gallery">
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<h3>bla bla bla</h3>
+				<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+			</div>
+			<div class="gallery-item">
+				<div class="item" style="background-image:url('https://images.unsplash.com/photo-1496150590317-f8d952453f93?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=961edb326df737a36e5eafcae013b5fe&auto=format&fit=crop&w=1350&q=80')">
+					<div class="icon-gallery">
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<h3>bla bla bla</h3>
+				<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+			</div>
+			<div class="gallery-item">
+				<div class="item" style="background-image:url('https://images.unsplash.com/photo-1496150590317-f8d952453f93?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=961edb326df737a36e5eafcae013b5fe&auto=format&fit=crop&w=1350&q=80')">
+					<div class="icon-gallery">
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<h3>bla bla bla</h3>
+				<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+			</div>
+			<div class="gallery-item">
+				<div class="item" style="background-image:url('https://images.unsplash.com/photo-1496150590317-f8d952453f93?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=961edb326df737a36e5eafcae013b5fe&auto=format&fit=crop&w=1350&q=80')">
+					<div class="icon-gallery">
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<h3>bla bla bla</h3>
+				<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+			</div>
+			<div class="gallery-item">
+				<div class="item" style="background-image:url('https://images.unsplash.com/photo-1496150590317-f8d952453f93?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=961edb326df737a36e5eafcae013b5fe&auto=format&fit=crop&w=1350&q=80')">
+					<div class="icon-gallery">
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<h3>bla bla bla</h3>
+				<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+			</div>
+			<div class="gallery-item">
+				<div class="item" style="background-image:url('https://images.unsplash.com/photo-1496150590317-f8d952453f93?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=961edb326df737a36e5eafcae013b5fe&auto=format&fit=crop&w=1350&q=80')">
+					<div class="icon-gallery">
+					<i class="fa fa-search fa-lg"></i>
+				</div>
+				<h3>bla bla bla</h3>
+				<p>Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+			</div>
+			<div class="show-more">show more</div>
+			<div class="arrow"></div>
+		</div>	
+	</section>
+	<section class="picture">
+		<div class="background-image"></div>
+		<div class="flex-container">
+			<h3 class="italic">Please share some love by appreciate it and download!</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
+			<button class="btn">Download now</button>
+		</div>
+	</section>
+	<footer>
+		<div class="copyrights">
+			<p>Copyrights 2018</p>
+		</div>
+		<div class="author">
+			<p>designed by samu.co</p>
+		</div>
+	</footer>
+</body>
+</html>
