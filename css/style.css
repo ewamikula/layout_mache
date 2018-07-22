@@ -91,6 +91,8 @@ header .hero .slogan p {
 }
 
 header .hero .btn {
+  margin: 0 auto;
+  display: block;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 15px;
