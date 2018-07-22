@@ -39,15 +39,22 @@ body {
 	font-family: $font;
 }
 
-.flex-container {
+.container {
 	@include width(100%, 1200px);
 	margin: 0 auto;
 	padding: 0;
 }
 
+.flex-container {
+	@include width(100%, 1200px);
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+}
+
 /*header*/
 header {
-	height: 60vh;
+	height: 100vh;
 	background-image:url('images/main-image.png');
 	@include background(center, cover)
 	nav {
@@ -75,23 +82,40 @@ header {
 			color: $pink;
 		}
 		img {
-			align-items: flex-start;
 		  	padding: 40px 0;
+		  	cursor: pointer;
 		}
 	}
 	.hero {
-		margin-top: 200px;
-		color: $white;
-		text-align: center;
-		.uppercase {
+		.slogan {
+			margin-top: 200px;
+			font-size: 36px;
+			color: $white;
+			text-align: center;
+			.uppercase {
+				text-transform: uppercase;
+				font-weight: 300;
+			}
+			.bold {
+				font-weight: 900;
+			}
+			p {
+				font-size: 26px;
+				font-weight: 300;
+			}
+		}
+		.btn {
 			text-transform: uppercase;
-			font-weight: 300;
-		}
-		.bold {
-			font-weight: 900;
-		}
-		p {
-		 font-weight: 300;
+			font-weight: 700;
+			font-size: 15px;
+			margin-top: 70px;
+			border: $pink;
+			background: $pink;
+			color: $white;
+			@include border-radius(30px);
+			min-height: 50px;
+			min-width: 200px;
+			cursor: pointer;
 		}
 	}
 }
